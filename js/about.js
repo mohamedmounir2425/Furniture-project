@@ -1,14 +1,9 @@
-// let nav = document.getElementById("nav")
-// let ul = document.getElementById("ul")
 
 
-// window.onscroll =function (){
+let nav = document.getElementById("nav")
+let btnNav = document.querySelector(".btn-nav")
 
-//     if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100 ) {
-//         nav.style.backgroundColor = "#302f2f";
-//         ul.style.color = "white";
-//     } 
-//     else {
-//         nav.style.backgroundColor = "transparent";
-//     }
-// }
+btnNav.addEventListener("click",function(){
+    let drop = document.querySelector(".drop-nav")
+    drop.classList.toggle("d-block");
+})

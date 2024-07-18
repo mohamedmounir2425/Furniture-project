@@ -1,3 +1,13 @@
+let nav = document.getElementById("nav")
+let btnNav = document.querySelector(".btn-nav")
+
+btnNav.addEventListener("click",function(){
+    let drop = document.querySelector(".drop-nav")
+    drop.classList.toggle("d-block");
+})
+
+
+
 let username = document.querySelector("input[id=name]")
 let iconWrong1 = document.querySelector(".icon-wrong1")
 let iconRight1 = document.querySelector(".icon-right1")
